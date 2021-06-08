@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:football_live/screens/home.dart';
-import 'package:football_live/screens/homepage.dart';
+import 'package:football_live/screens/testpage.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +14,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Home(),
+      // home: HomePage(),
+      home: TestPage(),
     );
   }
 }
